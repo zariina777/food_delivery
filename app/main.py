@@ -13,3 +13,5 @@ app.include_router(main_router)
 
 if __name__ == "main":
     uvicorn.run('main:app', host="0.0.0.0", port=8000, reload=True)
+
+#print(f"Static files will be served from: {settings.STATIC_PATH}") #проверка
