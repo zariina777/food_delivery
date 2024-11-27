@@ -1,7 +1,7 @@
 import os
-from fastapi.staticfiles import StaticFiles
-
+from typing import Optional
 from pydantic import BaseSettings
+
 # класс связан с файлом енв, реализовывоем в виде объекта класса сеттингс и дальше использовать атрибуьы класса
 
 
